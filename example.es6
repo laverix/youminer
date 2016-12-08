@@ -1,7 +1,8 @@
 'use strict';
 
 import Youminer from './index';
+import jsonfile from 'jsonfile';
 
-Youminer.execute('5tFLtNwZVs4', result =>
-	console.log(result)
+Youminer.execute('zxh8rHm4FnM', result =>
+	jsonfile.writeFile('./result.json', result)
 );
