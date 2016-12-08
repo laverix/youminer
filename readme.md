@@ -2,6 +2,8 @@
 
 > Node module for analyzing and summarizing Youtube comments
 
+> Russian language only!
+
 ![](logo.png)
 
 ## Installation
